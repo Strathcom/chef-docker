@@ -105,7 +105,8 @@ default['docker']['package']['repo_url'] = value_for_platform(
   },
   'default' => nil
 )
-default['docker']['package']['repo_key'] = 'https://get.docker.io/gpg'
+default['docker']['package']['repo_keyserver'] = 'keyserver.ubuntu.com'
+default['docker']['package']['repo_key'] = 'A88D21E9'
 
 ## Source installation attributes
 
